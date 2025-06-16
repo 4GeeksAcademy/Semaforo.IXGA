@@ -6,9 +6,7 @@ const Home = () => {
     return (
         <div className="semaforo">
             <div
-                clas
-                
-                sName={`semaforo-rojo${luzActiva === "rojo" ? " activo" : ""}`}
+                className={`semaforo-rojo${luzActiva === "rojo" ? " activo" : ""}`}
                 onClick={() => setLuzActiva("rojo")}
             ></div>
             <div
